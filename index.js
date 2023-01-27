@@ -1,12 +1,13 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyCHy9bKa874i9Yihjo6_g8whShUFqSKBlg",
-  authDomain: "chat-3ac69.firebaseapp.com",
-  projectId: "chat-3ac69",
-  storageBucket: "chat-3ac69.appspot.com",
-  messagingSenderId: "847693758753",
-  appId: "1:847693758753:web:72c6c99ab282172416be60",
-  measurementId: "G-PSGWQFT55X"
+  apiKey: "AIzaSyBKvxAxhoWkoxc8KIG5YLbJaTrHW3cdRiM",
+  authDomain: "web-chat-97fb5.firebaseapp.com",
+  projectId: "web-chat-97fb5",
+  storageBucket: "web-chat-97fb5.appspot.com",
+  messagingSenderId: "66933363922",
+  appId: "1:66933363922:web:ac8e7d97c0090c92c0890b",
+  measurementId: "G-MJ128SS0KQ",
+  databaseURL: "https://web-chat-97fb5-default-rtdb.firebaseio.com/"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
@@ -15,7 +16,7 @@ firebase.initializeApp(firebaseConfig);
 const db = firebase.database();
 
 // get user's data
-const username = prompt("Please Tell Us Your Name");
+// const username = prompt("Please Tell Us Your Name");
 
 // submit form
 // listen for submit event on the form and call the postChat function
